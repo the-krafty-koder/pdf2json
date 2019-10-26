@@ -6,9 +6,7 @@
 
 pdf2json is a package that converts pdf documents into json(displayed per page) and optionally sends them to algolia as index records.
 
-### Tech
-
-Dillinger uses a number of open source projects to work properly:
+### pdf2json uses a number of open source projects to work properly:
 
 * BeautifulSoup
 * PyPDF
@@ -24,6 +22,12 @@ pdf2json requires python version 3+  to run.
 
 Install the dependencies and devDependencies and using pip and start using.
 
+### Usage
+
+from pdf2json import sendtoalgolia
+
+client = sendtoalgolia(app_id,api_key)
+client(algolia_indexname:string,generate_id:boolean,path_to_pdf:string)
 
 
 License
