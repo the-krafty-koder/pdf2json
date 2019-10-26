@@ -2,19 +2,17 @@ from distutils.core import setup
 setup(
   name = 'pdf2json',
   packages = ['pdf2json'],
-  version = '0.1',
+  version = '0.2',
   license='MIT',
   description = 'A python package that converts pdfdocs into json format',
   author = 'Omoga Omondi',
   author_email = 'omondio254@gmail.com',
   url = 'https://github.com/the-krafty-koder/pdf2json',
-  download_url = 'https://github.com/the-krafty-koder/pdf2json/archive/v_01.tar.gz',
+  download_url = 'https://github.com/the-krafty-koder/pdf2json/archive/v_02.tar.gz',
   keywords = ['algolia', 'pdf', 'json'],
   install_requires=[
-          'logging',
           'beautifulsoup4',
           'PyPDF2',
-          'functools',
           'algoliasearch',
       ],
   classifiers=[
