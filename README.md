@@ -24,11 +24,11 @@ Install the dependencies and devDependencies and using pip and start using.
 
 ### Usage
 
-from pdf2json import sendtoalgolia
+> from pdf2json import sendtoalgolia
 
-client = sendtoalgolia(app_id,api_key)
+> client = sendtoalgolia(app_id,api_key)
 
-client(algolia_indexname:string,generate_id:boolean,path_to_pdf:string)
+> client(algolia_indexname:string,generate_id:boolean,path_to_pdf:string)
 
 
 License
